@@ -546,7 +546,7 @@ int InitApp( int argc, char** argv )
 	demoCount = 4;
 	currentDemo = 3;
 	demos[ currentDemo ]->Init( );
-	sprintf( sceneFileName, "q3dump.txt" );
+	snprintf( sceneFileName, sizeof(sceneFileName), "q3dump.txt" );
 
 	InitImGui( );
 	glutMainLoop( );

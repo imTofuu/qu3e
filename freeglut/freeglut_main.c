@@ -25,6 +25,8 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+#include <sys/time.h>
+
 #include "freeglut.h"
 #include "freeglut_internal.h"
 #if HAVE_ERRNO
